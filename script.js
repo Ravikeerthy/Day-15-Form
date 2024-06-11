@@ -3,6 +3,7 @@ mainBox.setAttribute("class","container");
 
 var head = document.createElement("h1");
 head.setAttribute("id","title");
+head.setAttribute("class", "text-center my-4");
 head.innerText = "Calculator";
 document.body.append(head);
 
@@ -14,6 +15,7 @@ document.body.append(descrip);
 var inputArea = document.createElement("input");
 // inputArea.setAttribute("type","text");
 inputArea.setAttribute("id","result");
+inputArea.setAttribute("class","form-control mb-3");
 mainBox.append(inputArea);
 
 
